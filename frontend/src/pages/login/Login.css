@@ -1,0 +1,20 @@
+.login {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.login-left {
+  display: flex;
+  justify-content: center;
+}
+
+.login-left,
+.login-right {
+  width: 50%;
+}
+
+.login-right h1 {
+  font-size: 4rem;
+  color: var(--primary-color);
+}

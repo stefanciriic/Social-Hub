@@ -1,0 +1,91 @@
+.new_post {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 5rem;
+  box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+}
+
+.post_profile_picture {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin: 0 0 0 1rem;
+}
+
+.post_profile_picture img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.create_post {
+  color: rgba(0, 0, 0, 0.75);
+  background-color: rgba(0, 0, 0, 0.04);
+  padding: 0.8rem;
+  border-radius: 25px;
+  margin: 0 1rem;
+  cursor: pointer;
+  flex: 1;
+}
+
+.posts {
+  margin-top: 1rem;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+}
+
+.modal_overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal_textarea {
+  width: 100%;
+  height: 30vh;
+  margin-bottom: 10px;
+  resize: none;
+  border-radius: 10px;
+  padding: 0.5rem;
+  border: none;
+}
+
+.modal_textarea:focus {
+  outline: none;
+}
+
+.modal_submit_button {
+  background-color: #008000;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 35%;
+  margin: 0;
+  height: 2rem;
+  font-size: 1rem;
+}
+
+.modal_close_button {
+  background-color: #000000;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 35%;
+  margin: 0;
+  height: 2rem;
+  font-size: 1rem;
+}

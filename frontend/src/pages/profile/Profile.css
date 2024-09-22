@@ -1,0 +1,24 @@
+.divider {
+  height: 1px;
+  width: 70%;
+  margin-top: 2rem;
+  background-color: rgba(120, 119, 119, 0.25);
+}
+
+.profile-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.profile-middle {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.user-posts {
+    margin-top: 2rem;
+}
+

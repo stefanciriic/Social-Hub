@@ -1,0 +1,39 @@
+div.login-left > form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #e2e2e2;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px 3px rgb(0, 0, 0, 0.05);
+  width: 60%;
+  padding: 2rem;
+}
+
+form button {
+  margin-top: 1rem;
+  background-color: var(--primary-color);
+  border-radius: 10px;
+  border: none;
+  height: 2.5rem;
+  font-size: 1.2rem;
+  color: #fff;
+  width: 50%;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+button:hover {
+  background-color: #139465;
+  transition: all 0.2s;
+}
+
+.register-link {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.register-link-text {
+  color: var(--primary-color);
+  text-decoration: underline;
+  cursor: pointer;
+}

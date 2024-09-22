@@ -1,0 +1,28 @@
+.all-chats {
+  width: 25%;
+  height: 92vh;
+  background-color: rgb(246, 246, 246);
+}
+
+.chat {
+  display: flex;
+  align-items: center;
+  background-color: rgb(240, 240, 240);
+  margin-bottom: 0.5rem;
+  height: 4rem;
+  padding: 0.3rem;
+}
+
+.chat-profile-picture {
+    height: 100%;
+    margin-left: 2rem;
+}
+
+.chat-profile-picture img {
+    height: 100%;
+    border-radius: 50%;
+}
+
+.chat p {
+    margin-left: 1rem;
+}

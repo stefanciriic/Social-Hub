@@ -1,0 +1,22 @@
+.message-input-container {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.message-input {
+  width: 100%;
+  min-height: 70px;
+  padding: 1rem;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  resize: vertical;
+  resize: none;
+}
+
+.message-input:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+}
